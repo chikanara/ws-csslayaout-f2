@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap");
+
+#logo {
+  width: 190px;
+  height: 90px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top:0;
+}
+.menu {
+  display: flex;
+}
+.menu-item {
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: grey;
+}
+.drop-menu-item {
+  list-style: none;
+  margin-top: 10px;
+}
+.drop-menu {
+  display: none;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: -40px;
+  background-color: white;
+}
+.drop-menu-item {
+  color: grey;
+}
+.menu-item:hover {
+  color: rgb(12, 178, 156);
+}
+.title {
+  text-align: center;
+  padding-top: 100px;
+}
+.title h1 {
+  font: 300 34px "Work Sans", Arial, sans-serif;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.info p {
+    width:45%;
+    font:400 16px Roboto, Arial, sans-serif;
+    color: rgb(116,116,116);
+    line-height: 28px;
+    text-align: justify;
+}
